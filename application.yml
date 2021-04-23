@@ -5,3 +5,7 @@ eureka:
     
   instance:
     hostname: localhost
+
+
+department:
+  url: saveDepartment
