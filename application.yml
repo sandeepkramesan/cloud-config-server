@@ -1,11 +1,17 @@
-eureka:
-  client:
-    register-with-eureka: true
-    fetch-registry: true
+# eureka:
+#   client:
+#     register-with-eureka: true
+#     fetch-registry: true
     
-  instance:
-    hostname: localhost
+#   instance:
+#     hostname: localhost
 
 
-department:
-  url: saveDepartment
+# department:
+#   url: saveDepartment
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: root
+    password: root
